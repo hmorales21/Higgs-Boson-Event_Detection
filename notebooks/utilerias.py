@@ -47,7 +47,7 @@ def exact_values_table(df,fvalue):
     f_val_table = pd.concat([fval, fval_percent], axis=1)
         
     # Rename the columns
-    zero_val_table_ren_columns = fval.rename(
+    zero_val_table_ren_columns = f_val_table.rename(
     columns = {0 : 'f Values', 1 : '% of Total Values'})
         
     # Sort the table by percentage of zero descending
