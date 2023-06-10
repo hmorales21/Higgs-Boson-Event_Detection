@@ -38,10 +38,10 @@ def missing_values_table(df):
 
 def exact_values_table(df,fvalue):
     # Total zero values by column
-    fval = df[(df == fvalue)].sum()
+    fval = df[(df == fvalue)].count()
         
     # Percentage of missing values by column
-    fval_percent = 100 * df[(df == 0)].sum() / len(df)
+    fval_percent = 100 * df[(df == fvalue)].count() / len(df)
         
     # build a table with the thw columns
     f_val_table = pd.concat([fval, fval_percent], axis=1)
@@ -52,7 +52,7 @@ def exact_values_table(df,fvalue):
         
     # Sort the table by percentage of zero descending
     zero_val_table_ren_columns = zero_val_table_ren_columns[
-        zero_val_table_ren_columns.iloc[:,1] != 0].sort_values(
+        zero_val_table_ren_columns.iloc[:,1] != fvalue].sort_values(
         '% of Total Values', ascending=False).round(1)
         
     # Print some summary information
