@@ -63,3 +63,12 @@ def exact_values_table(df,fvalue):
     print ('=========================================')
         
     return zero_val_table_ren_columns
+
+def features_by_type(df):
+    # Count of column datatypes for the training dataset
+    df_cols = pd.DataFrame(index = ['Features'], columns = ['Integer', 'Float', 'Object'])
+    df_cols['Integer'] = len(df.columns[df.dtypes == 'int64'])
+    df_cols['Float'] = len(df.columns[df.dtypes == 'float64'])
+    df_cols['Object'] = len(df.columns[df.dtypes == 'object'])
+    #print(f'shape param: {df.shape}')
+    return df_cols
