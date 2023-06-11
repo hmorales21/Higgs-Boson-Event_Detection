@@ -27,5 +27,5 @@
 </ul>
 <hr>
 <p>Horacio Morales González<p>
-[![Twitter: LachoMorales](https://img.shields.io/twitter/follow/LachoMorales?style=social)](https://twitter.com/LachoMorales)
-[![Linkedin: thaianebraga](https://img.shields.io/badge/-hmorales1970-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hmorales1970/)](https://www.linkedin.com/in/hmorales1970/)
+<a href="https://twitter.com/LachoMorales"><img src="https://img.shields.io/twitter/follow/LachoMorales?style=social" alt="Twitter: LachoMorales"/></a>
+<a href="https://www.linkedin.com/in/hmorales1970/"><img scr="https://img.shields.io/badge/-hmorales1970-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin: hmorales1970"/></a>
