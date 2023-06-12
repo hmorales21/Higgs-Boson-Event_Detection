@@ -3,6 +3,10 @@
 
 #import section
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from math import trunc
 
 #routines section
 
@@ -72,3 +76,31 @@ def features_by_type(df):
     df_cols['Object'] = len(df.columns[df.dtypes == 'object'])
     #print(f'shape param: {df.shape}')
     return df_cols
+
+def plot_features_distribution(df):
+    plt.figure(figsize=(15,70))
+    plotnumber = 1
+
+    num_rows=trunc(len(df.columns)/3)
+    if (len(df.columns) % 3) != 0:
+        num_rows += 1
+
+    for col in df:
+        if plotnumber <= df.shape[1]:
+            ax1 = plt.subplot(num_rows,3,plotnumber)
+            if df[col].dtypes == 'O':
+                sns.countplot(data=df, y=col, palette='Dark2')
+            else:
+                sns.histplot(data= df, x=col ,palette='Light2')
+
+            plt.xticks(fontsize=12)
+            plt.yticks(fontsize=12)
+            plt.title(col.title(), fontsize=14)
+            plt.xlabel('')
+            plt.ylabel('')
+        plotnumber +=1
+        plt.tight_layout()
+    
+    plt.show()
+    
+    return

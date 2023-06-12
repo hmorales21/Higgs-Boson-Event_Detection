@@ -17,6 +17,7 @@
 <ul>
     <li>assets</li>
         <p><a href="../assets/Dataset_Details.pdf">Dataset Details</a></p>
+        <p><a href='"Searching for Higgs Boson Decay Modes with Deep Learning.pdf"'>Searching for Higgs Boson Decay Modes with Deep Learning.pdf</a></p>
     <li>datasets</li>
         <p>training.csv : original dataset</p>
     <li>notebooks</li>
