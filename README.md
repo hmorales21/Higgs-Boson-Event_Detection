@@ -9,7 +9,7 @@
 <h2>Problem Statement:</h2>
 <p>With the given dataset we have to classify whether the given event was a signal or a background noise in the process of decay for Higgs particle acceleration.</p>
 
-<p>Metric - **Precision**</p>
+<p>Metric - <b>Precision</b></p>
 
 <hr>
 <h2>Project structure</h2>
