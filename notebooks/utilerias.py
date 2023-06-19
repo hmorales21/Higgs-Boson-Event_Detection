@@ -124,12 +124,12 @@ def checking_skewness(df):
 
 def plot_outliers(df):
 
-    plt.figure(figsize=(15,70))
-    plotnumber = 1
-
     num_rows=trunc(len(df.columns)/3)
     if (len(df.columns) % 3) != 0:
         num_rows += 1
+    
+    plt.figure(figsize=(15,10*num_rows))
+    plotnumber = 1
 
     for col in df:
         if plotnumber <= df.shape[1]:

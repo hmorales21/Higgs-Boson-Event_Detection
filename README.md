@@ -20,8 +20,12 @@
         <p><a href='"Searching for Higgs Boson Decay Modes with Deep Learning.pdf"'>Searching for Higgs Boson Decay Modes with Deep Learning.pdf</a></p>
     <li>datasets</li>
         <p>training.csv : original dataset</p>
+        <p>training_post_EDA.csv : modified dataset after the EDA stage</p>
+        <p>training_post_preprosessing.csv : modified dataset after the preprocessing stage</p>
     <li>notebooks</li>
         <p>1. hpa_classificaion_EDA.ipynb</p>
+        <p>2. hpa_classificaion_Preprocessing.ipynb</p>
+        <p>3. hpa_classificaion_modelling.ipynb</p>
     <li>models</li>
         <p>model : </p>
     <li>deployment</li>
