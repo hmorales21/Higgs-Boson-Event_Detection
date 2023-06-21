@@ -23,9 +23,10 @@
         <p>training_post_EDA.csv : modified dataset after the EDA stage</p>
         <p>training_post_preprosessing.csv : modified dataset after the preprocessing stage</p>
     <li>notebooks</li>
-        <p>1. hpa_classificaion_EDA.ipynb</p>
-        <p>2. hpa_classificaion_Preprocessing.ipynb</p>
-        <p>3. hpa_classificaion_modelling.ipynb</p>
+        <p>1. hpa_classification_EDA.ipynb</p>
+        <p>2. hpa_classification_Preprocessing.ipynb</p>
+        <p>3. hpa_classification_modelling.ipynb</p>
+        <p>3. hpa_classification_explainable.ipynb</p>
     <li>models</li>
         <p>model : </p>
     <li>deployment</li>
