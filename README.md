@@ -28,7 +28,7 @@
         <p>3. hpa_classification_modelling.ipynb</p>
         <p>3. hpa_classification_explainable.ipynb</p>
     <li>models</li>
-        <p>model : </p>
+        <p>model : hpa_model.joblib</p>
     <li>deployment</li>
 </ul>
 <hr>
